@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0b0d2b;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: hidden;
+}
+/* Utility */
+.primary-color {
+  color: #ff960b;
+}
+.main-header {
+  background: url("../images/hero_background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+.main-header {
+  z-index: 10;
+}
+.logo img {
+  max-width: 240px;
+  cursor: pointer;
+}
+.navbar {
+  padding: 40px 0;
+}
+.main-header .content {
+  margin-top: 6%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.main-header .content h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  /* font-family: "Staatliches", sans-serif; */
+}
+.main-header .content .sub-content h2 {
+  font-size: 40px;
+  /* text-decoration: underline; */
+}
+.main-header .d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn-primary {
+  display: inline-block;
+  max-width: 230px;
+  width: 100%;
+  width: 230px;
+  margin-top: 30px;
+  background: #8d6aea;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  cursor: pointer;
+}
+/* section-a */
+.section-a,
+.section-b {
+  color: #fff;
+  background-color: #0b0d2b;
+}
+.section-a .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 30px;
+}
+.section-a .video-container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.video-container video {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 1px 5px 0px;
+}
+.section-a .row img {
+  max-width: 406px;
+}
+.section-c .row img {
+  max-width: 500px;
+}
+
+.section-a .offer {
+  padding: 40px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.section-a h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.section-a h2 span {
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-a p {
+  color: #f4f4f4;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+.section-a p span {
+  color: #ff960b;
+  font-size: 2rem;
+  font-family: "Staatliches", sans-serif;
+}
+/* Section-b */
+.section-b h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.section-b .about {
+  margin: 48px 0;
+}
+.about h3,
+.about p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+/* section-c */
+.section-c .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+}
+.section-c h2 {
+  font-size: 1.9rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.section-c .secondary-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.section-c .trade-report {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+.section-c .trade-report div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  box-shadow: rgba(181, 181, 184, 0.27) 0px 0px 0.25em,
+    rgba(200, 201, 203, 0.05) 0px 0.25em 1em;
+}
+.section-c .trade-report span {
+  color: rgb(61, 232, 61);
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+.section-c .trade-report .discount {
+  color: #ff960b;
+  font-size: 24px;
+}
+.section-c .trade-report .discount span {
+  font-size: 2.5rem;
+}
+.section-c .trade-report .discount .text-through {
+  text-decoration: line-through;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Disclaimer */
+.policy {
+  color: #fff;
+  margin: 48px 0;
+}
+.policy h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.policy p {
+  margin: 10px 0;
+  line-height: 1.7;
+  font-size: 18px;
+}
+/* Footer */
+.footer {
+  padding: 40px 0 0 0;
+  color: #fff;
+  background: #181028;
+}
+.footer h4 {
+  margin-bottom: 10px;
+}
+.footer ul li {
+  line-height: 2.5;
+  list-style: none;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo img {
+  width: 180px;
+}
+.footer .card {
+  margin: 20px 30px 30px 0;
+  /* background: #f4f4f6; */
+  border-radius: 10px;
+  color: #111;
+  padding: 15px;
+}
+.footer .copyright {
+  padding: 20px 0;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 1px solid #939393b5;
+}
+.footer .copyright p {
+  margin: 0;
+}
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff960b;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(61, 232, 61);
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 150px;
+  }
+  .main-header {
+    /* height: 90vh; */
+  }
+  .main-header .content h1 {
+    font-size: 40px;
+  }
+  .main-header .content .sub-content h2 {
+    font-size: 30px;
+  }
+  .section-a .row {
+    flex-direction: column;
+  }
+  .section-a .row img,
+  .section-c .row img {
+    display: none;
+  }
+  .section-a video {
+    width: 100%;
+  }
+  .section-a h2,
+  .section-d h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-a p {
+    font-size: 1.2rem;
+  }
+  .section-a p span {
+    font-size: 1.8rem;
+  }
+  .section-a .offer {
+    padding: 20px;
+  }
+  .section-c {
+    margin: 30px 0;
+    border-bottom: 1px dotted #555555;
+  }
+  .section-c .row {
+    flex-direction: column;
+  }
+  .section-c h2 {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .section-c .trade-report span {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+
+  .section-d .card-text {
+    font-size: 0.9rem;
+  }
+  .footer .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer .footer-grid > div {
+    text-align: center;
+  }
+  .footer .card {
+    margin-right: 0;
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .navbar {
+    padding: 20px 0;
+  }
+  .main-header .content {
+    margin-top: 1%;
+  }
+  .main-header .content h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .main-header .content .sub-content h2 {
+    font-size: 24px;
+  }
+  .main-header .d-flex {
+    flex-direction: column;
+    gap: 1px;
+  }
+  .main-header .d-flex .btn-primary {
+    margin-top: 15px;
+    width: 230px;
+  }
+  .btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-c .trade-report {
+    flex-direction: column;
+  }
+
+  /* Section d button */
+  .section-d .button-box {
+    display: none;
+  }
+  .section-d .unlock-offer {
+    display: block;
+  }
+  .section-d .unlock-offer .trial-offer {
+    padding: 15px 0 20px 0;
+    max-width: 280px;
+  }
+}
+/* Small Screen */
+/* @media (max-width: 500px) {
+  .unlock-offer .btn-secondary {
+    right: 36px;
+  }
+  .section-d .unlock-offer .trial-offer {
+    max-width: 265px;
+  }
+} */
