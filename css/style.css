@@ -228,6 +228,23 @@ body {
   line-height: 1.7;
   font-size: 18px;
 }
+/* Investors Complaints Page */
+.complaints .ex_links ul li {
+  color: #fff;
+}
+.complaints table {
+  width: 100%;
+}
+.complaints table tr {
+  background-color: #333;
+}
+.complaints table tr th {
+  font-size: 16px;
+  font-weight: normal;
+}
+.complaints table tr td {
+  padding: 10px;
+}
 /* Footer */
 .footer {
   padding: 40px 0 0 0;
