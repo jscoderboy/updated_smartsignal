@@ -403,11 +403,11 @@ body {
   .main-header .content .sub-content h2 {
     font-size: 24px;
   }
-  .main-header .d-flex {
+  .section-a .d-flex {
     flex-direction: column;
     gap: 1px;
   }
-  .main-header .d-flex .btn-primary {
+  .section-a .d-flex .btn-primary {
     margin-top: 15px;
     width: 230px;
   }
