@@ -78,7 +78,7 @@ body {
   font-size: 40px;
   /* text-decoration: underline; */
 }
-.section-a .d-flex {
+/* .section-a .d-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +86,7 @@ body {
 }
 .section-a .d-flex .btn {
   text-align: center;
-}
+} */
 .btn-primary {
   display: inline-block;
   max-width: 230px;
@@ -391,9 +391,6 @@ body {
     font-weight: 600;
   }
 
-  .section-d .card-text {
-    font-size: 0.9rem;
-  }
   .footer .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -420,14 +417,14 @@ body {
   .main-header .content .sub-content h2 {
     font-size: 24px;
   }
-  .section-a .d-flex {
+  /* .section-a .d-flex {
     flex-direction: column;
     gap: 1px;
   }
   .section-a .d-flex .btn-primary {
     margin-top: 15px;
     width: 230px;
-  }
+  } */
   .btn-primary {
     display: flex;
     justify-content: center;
@@ -435,18 +432,6 @@ body {
   }
   .section-c .trade-report {
     flex-direction: column;
-  }
-
-  /* Section d button */
-  .section-d .button-box {
-    display: none;
-  }
-  .section-d .unlock-offer {
-    display: block;
-  }
-  .section-d .unlock-offer .trial-offer {
-    padding: 15px 0 20px 0;
-    max-width: 280px;
   }
 }
 /* Small Screen */
