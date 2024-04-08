@@ -89,17 +89,18 @@ body {
 } */
 .btn-primary {
   display: inline-block;
-  max-width: 230px;
+  max-width: 220px;
   width: 100%;
-  width: 230px;
+  width: 220px;
   margin-top: 30px;
   background: #ff960b;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 30px;
+  text-align: center;
+  padding: 14px 25px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-transition-duration: 0.3s;
@@ -206,6 +207,13 @@ body {
   padding: 40px;
   box-shadow: rgba(181, 181, 184, 0.27) 0px 0px 0.25em,
     rgba(200, 201, 203, 0.05) 0px 0.25em 1em;
+}
+.section-c .trade-report .price-card {
+  position: relative;
+}
+.section-c .trade-report .price-card .btn {
+  position: absolute;
+  bottom: 40px;
 }
 .section-c .trade-report div h3 {
   font-size: 1.9rem;
